@@ -1,3 +1,14 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* color theme */
+/* h1 {
+    color: #d9534f;
+    color: #fffc00;
+    color: #7abbff;
+    color: #428bca;
+    color: #00ccbc;
+} */
