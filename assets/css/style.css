@@ -32,3 +32,41 @@ h1 {
     margin: 0 auto;
     padding: 2rem;
 }
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* buttons */
+.btn {
+    font-size: 3rem;
+    padding: 1rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #232322;
+    background:rgba(236,255,0,1);
+    border-radius: 5px;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.703);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
+.fa-solid {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#btn-topscores {
+    background:#428bca;
+}
