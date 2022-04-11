@@ -31,12 +31,10 @@
     width: 100%;
 }
 
-
-.game-display-outer {
+#game-display-outer{
     display: flex;
     justify-content: space-between;
-}
-
+} 
 .question-prefix {
     text-align: center;
     font-size: 2rem;
@@ -45,7 +43,6 @@
 .main-text-score {
     text-align: center;
 }
-
 
 #progressBar {
     width: 20rem;
