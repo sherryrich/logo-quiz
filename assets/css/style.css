@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@600&family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-size: 62.5%; */
+    background-color: #d9534f;
+    font-family: 'Anek Odia', 'Roboto', sans-serif;
 }
 
 /* color theme / palette
