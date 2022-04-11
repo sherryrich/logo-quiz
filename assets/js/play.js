@@ -59,6 +59,18 @@ let questions = [
         choice3: "MasterCard",
         choice4: "American Express",
         answer: 3,
-    },
-
+    }
 ]
+
+const score_points = 100
+const max_questions = 4
+
+//Start Game
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions = [...questions] //spread operator gets all the questions available
+    getNewQuestions()
+}
+
