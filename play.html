@@ -15,40 +15,43 @@
 <body>
     <div class="container">
         <div id="game" class="justify-center flex-column">
-            <div id="game-display">
+            <div id="game-display-outer">
                 <div class="game-display-item">
                     <p id="progressText" class="question-prefix">
-                        progress
+                        Question
                     </p>
                     <div id="progressBar">
                         <div id="progressBarFull"></div>
                     </div>
+                    <div class="game-display">
+                        <p class="question-prefix">
+                            Score
+                        </p>
+                        <h1 class="main-text-score" id="score">
+                            0
+                        </h1>
+                    </div>
                 </div>
-                <div class="game-display">
-                    <p class="question-prefix">
-                        Score
-                    </p>
-                    <h1 class="main-text" id="score">
-                        0
-                    </h1>
-                </div>
+                
             </div>
-            <div id="question">Logo Image Displays here</div>
+
+            <div id="question"><h1>Logo Image Displays here</h1></div>
+
             <div class="choice-container">
                 <p class="prefix">A</p>
-                <p class="choice-text" data-number="1">Choice 1</p>
+                <p class="choice-text" data-number="1">Choice</p>
             </div>
             <div class="choice-container">
                 <p class="prefix">B</p>
-                <p class="choice-text" data-number="2">Choice 2</p>
+                <p class="choice-text" data-number="2">Choice</p>
             </div>
             <div class="choice-container">
                 <p class="prefix">C</p>
-                <p class="choice-text" data-number="3">Choice 3</p>
+                <p class="choice-text" data-number="3">Choice</p>
             </div>
             <div class="choice-container">
                 <p class="prefix">D</p>
-                <p class="choice-text" data-number="4">Choice 4</p>
+                <p class="choice-text" data-number="4">Choice</p>
             </div>
         </div>
     </div>

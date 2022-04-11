@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@600&family=Roboto:wght@500&display=swap');
+
+* {
+    color: #fff;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: .8rem;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #00ccbc;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(58, 57, 57, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.prefix {
+    padding: 2rem 2rem;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+
+.game-display-outer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-text-score {
+    text-align: center;
+}
+
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: .2rem solid #00ccbc;
+    border-radius: 5px;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #00ccbc;
+    width: 0%;
+}
+
+/* media queries  */
+
+@media only screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
