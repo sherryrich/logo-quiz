@@ -10,11 +10,25 @@
 }
 
 /* color theme / palette
-
     color: #d9534f; red
     color: #fffc00; yellow
     color: #7abbff; lightblue
     color: #428bca; darkblue
     color: #00ccbc; green
-    
 */
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
