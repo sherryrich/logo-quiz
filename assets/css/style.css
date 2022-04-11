@@ -67,6 +67,11 @@ h1 {
     transform: scale(1.05);
 }
 
+#open, #close{
+    background:#00ccbc;
+    
+}
+
 .fa-solid {
     font-size: 2rem;
     margin-left: 1rem;
