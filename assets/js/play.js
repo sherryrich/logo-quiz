@@ -20,8 +20,45 @@ const scoreText = document.querySelector("#score")
 const progressBarFull = document.querySelector("#progressBarFull")
 
 // Declare variables for game
-let currentQuestion ={};
-let acceptingAnswers = true;
-let scor = 0;
-let questionCounter = 0;
-let availableQuestions = [];
+let currentQuestion ={}
+let acceptingAnswers = true
+let scor = 0
+let questionCounter = 0
+let availableQuestions = []
+
+// questions in game
+let questions = [
+    {
+        question: "assets/images/logo7.PNG",
+        choice1: "BP",
+        choice2: "ExxonMobil",
+        choice3: "Shell",
+        choice4: "Mobil",
+        answer: 1,
+    },
+    {
+        question: "assets/images/logo8.PNG",
+        choice1: "Ford",
+        choice2: "Daimler",
+        choice3: "Hyundai",
+        choice4: "Volkswagen",
+        answer: 4,
+    },
+    {
+        question: "assets/images/logo9.PNG",
+        choice1: "Corsodyl",
+        choice2: "Crest",
+        choice3: "Colgate",
+        choice4: "Sensodyne",
+        answer: 3,
+    },
+    {
+        question: "assets/images/logo17.PNG",
+        choice1: "VISA",
+        choice2: "Revolut",
+        choice3: "MasterCard",
+        choice4: "American Express",
+        answer: 3,
+    },
+
+]
