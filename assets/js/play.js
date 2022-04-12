@@ -72,7 +72,8 @@ getNewQuestion = () => {
     }
     //Shows the user the number of question is answering
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${max_questions}` // incrementing by 1 each time, 1/4, 2/4, 3,/4 etc
+    // incrementing by 1 each time, 1/4, 2/4, 3,/4 etc
+    progressText.innerText = `Question ${questionCounter} of ${max_questions}`
 
     //Update the progress any time the user answer a question
       progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question user is on and makes a percentage
