@@ -75,3 +75,37 @@ startGame = () => {
 }
 
 //Get a new question
+
+getNewQuestion = () => {
+    if (availableQuestions.length === 0 || questionCounter > max_questions) {
+        localStorage.setItem(`mostRecentScore`, score)
+        //bring user to the game end page after the quiz is finished
+        return window.location.assign("/logo-quiz/end.html")
+    }
+}
+
+//show the user the number of question is answering
+questionCounter++
+progressText.innerText = `Questions ${questionCounter} of ${max_questions}` // incrementing by 1 each time, 1/4, 2/4, 3/4 etc
+
+//update the progress any time the user answers a question
+progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question the user is on and makes a percentage
+
+const questionIndex = Math.floor(Math.random() * availableQuestions.length)
+currentQuestion = availableQuestions[questionsIndex] // keeps trac of what question user is currently on
+question.src = currentQuestion
+
+//update the answers to show the user after the last question is answered
+choices.forEach(choice => {
+    const number = choice.dataset["number"]
+    choice.innerText = currentQuestion["choice" + number]
+})
+
+availableQuestions.splice(questionsIndex, 1)
+acceptingAnswers = true
+
+}
+
+
+
+
