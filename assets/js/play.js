@@ -62,7 +62,7 @@ let questions = [
     }
 ]
 
-const score_points = 100
+const score_points = 1
 const max_questions = 4
 
 //Start Game
