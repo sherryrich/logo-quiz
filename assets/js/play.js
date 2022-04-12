@@ -93,15 +93,15 @@ getNewQuestion = () => {
 
 // compare the answer chosen by the user with the right answer, if true the user will see a message in WebGL2RenderingContext, if wrong the message will be in red
 
+
 choices.forEach(choice => {
-    choice.addEventListener("click", e => {
-        if (!acceptingAnswers) 
-        return
+    choice.addEventListener('click', e => {
+        if (!acceptingAnswers) return
         acceptingAnswers = false
         const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset["number"]
-        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect' // toggle green or red css
-        if (classToApply === "correct") {
+        const selectedAnswer = selectedChoice.dataset['number']
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        if (classToApply === 'correct') {
             incrementScore(score_points)
         }
         selectedChoice.parentElement.classList.add(classToApply)
@@ -109,12 +109,10 @@ choices.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
         }, 1000)
-
     })
 })
-
 incrementScore = num => {
-    score += nums
-    score.Text.innerText = score
+    score += num
+    scoreText.innerText = score
 }
 startGame()

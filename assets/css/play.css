@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@600&family=Roboto:wght@500&display=swap');
 
-
-
 .choice-container {
     display: flex;
     margin-bottom: .8rem;
@@ -65,13 +63,12 @@
 }
 
 .correct {
-    background:  green;
+    background: green;
 }
 
 .incorrect {
-    background:  red;
+    background: red;
 }
-
 
 /* media queries  */
 
