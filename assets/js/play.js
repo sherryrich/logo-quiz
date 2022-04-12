@@ -74,3 +74,4 @@ startGame = () => {
     getNewQuestions()
 }
 
+//Get a new question
