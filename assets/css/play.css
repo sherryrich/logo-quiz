@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@600&family=Roboto:wght@500&display=swap');
 
-* {
-    color: #fff;
-}
+
 
 .choice-container {
     display: flex;
     margin-bottom: .8rem;
     width: 100%;
     border-radius: 5px;
-    background-color: #00ccbc;
+    background-color: #fffc00;
     font-size: 3rem;
     min-width: 80rem;
 }
@@ -23,7 +21,6 @@
 
 .prefix {
     padding: 2rem 2rem;
-    color: #fff;
 }
 
 .choice-text {
@@ -47,7 +44,7 @@
 #progressBar {
     width: 20rem;
     height: 3rem;
-    border: .2rem solid #00ccbc;
+    border: .2rem solid #fffc00;
     border-radius: 5px;
     margin-top: 2rem;
     overflow: hidden;
@@ -58,6 +55,23 @@
     background: #00ccbc;
     width: 0%;
 }
+
+#progressText {
+    color: white
+}
+
+.question-prefix {
+    color: white
+}
+
+.correct {
+    background:  green;
+}
+
+.incorrect {
+    background:  red;
+}
+
 
 /* media queries  */
 
