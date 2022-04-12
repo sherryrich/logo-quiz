@@ -1,16 +1,3 @@
-//Modal - how to play
-
-const open = document.getElementById("open");
-const modal_container = document.getElementById("modal_container");
-const close =  document.getElementById("close");
-
-open.addEventListener("click", () => {
-    modal_container.classList.add("show");
-});
-
-close.addEventListener("click", () => {
-    modal_container.classList.remove("show");
-});
 
 // Main JS - Declare const variables for DOM elements 
 const question = document.querySelector("#question")
@@ -22,7 +9,7 @@ const progressBarFull = document.querySelector("#progressBarFull")
 // Declare variables for game
 let currentQuestion ={}
 let acceptingAnswers = true
-let scor = 0
+let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
@@ -71,7 +58,7 @@ startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = [...questions] //spread operator gets all the questions available
-    getNewQuestions()
+    getNewQuestion()
 }
 
 //Get a new question
@@ -79,32 +66,55 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > max_questions) {
         localStorage.setItem(`mostRecentScore`, score)
-        //bring user to the game end page after the quiz is finished
-        return window.location.assign("/logo-quiz/end.html")
+
+        //Brings the user to the game end page after the quiz is finished
+        return window.location.assign('/logo-quiz/end.html')
     }
+    //Shows the user the number of question is answering
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${max_questions}` // incrementing by 1 each time, 1/4, 2/4, 3,/4 etc
+
+    //Update the progress any time the user answer a question
+      progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question user is on and makes a percentage
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length) 
+    currentQuestion = availableQuestions[questionsIndex] // keeps track of what question user is currently on
+    question.src = currentQuestion.question
+
+    // Update the answers to show the user after last question is answered
+    choices.forEach(choice => {
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice' + number]
+    })
+    availableQuestions.splice(questionsIndex, 1)
+    acceptingAnswers = true
 }
 
-//show the user the number of question is answering
-questionCounter++
-progressText.innerText = `Questions ${questionCounter} of ${max_questions}` // incrementing by 1 each time, 1/4, 2/4, 3/4 etc
 
-//update the progress any time the user answers a question
-progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question the user is on and makes a percentage
+// compare the answer chosen by the user with the right answer, if true the user will see a message in WebGL2RenderingContext, if wrong the message will be in red
 
-const questionIndex = Math.floor(Math.random() * availableQuestions.length)
-currentQuestion = availableQuestions[questionsIndex] // keeps trac of what question user is currently on
-question.src = currentQuestion
-
-//update the answers to show the user after the last question is answered
 choices.forEach(choice => {
-    const number = choice.dataset["number"]
-    choice.innerText = currentQuestion["choice" + number]
+    choice.addEventListener("click", e => {
+        if (!acceptingAnswers) 
+        return
+        acceptingAnswers = false
+        const selectedChoice = e.target
+        const selectedAnswer = selectedChoice.dataset["number"]
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect' // toggle green or red css
+        if (classToApply === "correct") {
+            incrementScore(score_points)
+        }
+        selectedChoice.parentElement.classList.add(classToApply)
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+        }, 1000)
+
+    })
 })
 
-availableQuestions.splice(questionsIndex, 1)
-acceptingAnswers = true
-
+incrementScore = num => {
+    score += nums
+    score.Text.innerText = score
 }
-
-
-
+startGame()
