@@ -70,6 +70,12 @@
     background: red;
 }
 
+.image-container {
+    border: 5px solid #fff;
+    margin-bottom: 2rem;
+}
+
+
 /* media queries  */
 
 @media only screen and (max-width: 768px) {

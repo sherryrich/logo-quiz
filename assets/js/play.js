@@ -68,7 +68,7 @@ getNewQuestion = () => {
         localStorage.setItem(`mostRecentScore`, score)
 
         //Brings the user to the game end page after the quiz is finished
-        return window.location.assign('/logo-quiz/end.html')
+        return window.location.assign('/end.html')
     }
     //Shows the user the number of question is answering
     questionCounter++
@@ -111,6 +111,7 @@ choices.forEach(choice => {
         }, 1000)
     })
 })
+
 incrementScore = num => {
     score += num
     scoreText.innerText = score
