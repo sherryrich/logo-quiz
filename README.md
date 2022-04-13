@@ -1,9 +1,30 @@
 # Logo Quiz
 
+Test your skills with The Logo Quiz!
+This game features 10 questions.The user must simply match the correct company logo to that of the company. The catch is the image displayed is only part of the company logo.
+Inspiration for this game came when I recently bought [The Logo Board Game](https://www.drumondpark.com/logo) to play with my family
+
 A deployed link to the website can be found [here](https://sherryrich.github.io/logo-quiz/)
 
 ## Showcase
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_showcase.png)
+
+## Homepage
+The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores"
+
+### Play
+When the user clicks the Play button they are immedediatly brought to the play.html page where the user is greeted with the 1st question of 10 questions. The user is also shown the current score which is defaulted to zero at the start. Under the score is the image / logo of a company. The user is then shown 4 possible answers of which they must choose one. If the user selects correctly the button will display green and the remaning 3 options will display red. The user will increase their score by 1 point and progress onto question 2. If the user selects incorrectly the answer will be displayed in red. If they select incorrectly the current score will remain the same and the user will progress onto question 2. As the user progress through the 10 questions the progress bar increases incrementally and the number of questions our of 10 also increased. Example if the user is on question 8 out of the 10 questions the progress bar will display 80% full and it will display "Question 8 of 10". This process is repeated for each question until the user completes all 10 questions.
+
+### How To Play
+When the user clicks the 'How To Play' button, a modal window will pop up. Simply instructions are given to the user on how to play the game. The user then selects "continue" to revert back to the homepage.
+
+### End of Game
+When the user completes all 10 possible guesses they are show the end.html page where they are shown the score they achieved and the message "Are you on the Top Scores List?
+Enter your details below to find out". The user must enter a name and select save in order to see the Top Scores page which is /topscores.html.
+
+### Top Scores
+If the user enters a name they are brought to the topscores.html page where the top 5 names and accompaning scores are displayed, highest at the top and lowest at the bottom.
+The user now has two button options, "Play Again" which will bring the user back to the play.html page to start over or "Go Home" which will bring the user back to the Homepage, index.html page.
 
 
 ## Design
