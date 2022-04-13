@@ -26,10 +26,11 @@
     width: 100%;
 }
 
-#game-display-outer{
+#game-display-outer {
     display: flex;
     justify-content: space-between;
-} 
+}
+
 .question-prefix {
     text-align: center;
     font-size: 2rem;
@@ -75,6 +76,9 @@
     margin-bottom: 2rem;
 }
 
+.fa-home {
+    color: #232322;
+}
 
 /* media queries  */
 
@@ -82,8 +86,4 @@
     .choice-container {
         min-width: 40rem;
     }
-}
-
-.fa-home {
-    color: #232322;
 }

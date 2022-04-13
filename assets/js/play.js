@@ -1,4 +1,3 @@
-
 // Main JS - Declare const variables for DOM elements 
 const question = document.querySelector("#question")
 const choices = Array.from(document.querySelectorAll('.choice-text'));
@@ -7,15 +6,14 @@ const scoreText = document.querySelector("#score")
 const progressBarFull = document.querySelector("#progressBarFull")
 
 // Declare variables for game
-let currentQuestion ={}
+let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
 // questions in game
-let questions = [
-    {
+let questions = [{
         question: "assets/images/logo7.PNG",
         choice1: "BP",
         choice2: "ExxonMobil",
@@ -76,9 +74,9 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter} of ${max_questions}`
 
     //Update the progress any time the user answer a question
-      progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question user is on and makes a percentage
+    progressBarFull.style.width = `${(questionCounter / max_questions) * 100}%` // calculate what question user is on and makes a percentage
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestions.length) 
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex] // keeps track of what question user is currently on
     question.src = currentQuestion.question
 
@@ -91,9 +89,7 @@ getNewQuestion = () => {
     acceptingAnswers = true
 }
 
-
 // compare the answer chosen by the user with the right answer, if true the user will see a message in WebGL2RenderingContext, if wrong the message will be in red
-
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {

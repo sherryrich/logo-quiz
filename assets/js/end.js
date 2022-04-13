@@ -23,12 +23,11 @@ saveHighScore = e => {
 
     topScores.push(score)
 
-    topScores.sort((a,b) => {
+    topScores.sort((a, b) => {
         return b.score - a.score
     })
 
     topScores.splice(5)
     localStorage.setItem("topScores", JSON.stringify(topScores))
-    window.location.assign("/logo-quiz/topscores.html")
-
+    window.location.assign("/topscores.html")
 }
