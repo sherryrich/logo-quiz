@@ -21,7 +21,7 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 
 ## Wireframes
 
-* To view all wireframes both Desktop & mobile [Click Here]https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_wireframes.pdf)
+* To view all wireframes both Desktop & mobile [Click Here](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_wireframes.pdf)
 
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_wireframe_homepage.PNG)
 
@@ -61,3 +61,18 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 
 ## Testing
 TBC
+
+
+
+
+
+### W3C Validator Testing
+
+#### The W3C Markup Validator and W3C CSS Validation Service were used to validate each page to sure no errors were shown upon submission.
+
+* W3C Markup Validator - index.html [result]()
+* W3C Markup Validator - play.html [result]()
+* W3C Markup Validator - end.html [result]()
+* W3C Markup Validator - topscores.html [result]()
+* TW3C CSS Validation Service - style.css [result]()
+* TW3C CSS Validation Service - play.css [result]()
