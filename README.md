@@ -29,10 +29,10 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_lighthouse_report.PNG)
 
 
-Features Left to Implement
-Countdown timer
-Random image generator
-contact form
+### Features Left to Implement
+* Countdown timer per game / question.
+* Random question generator.
+* Contact form.
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 ### Tools
 * [Google Fonts](https://fonts.google.com/) Used to compare and choose fonts.
 * [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
-* [Color-hex](https://www.color-hex.com/color-palette/8987) once I identified the colors I wanted I used color-hex to generate the palette.
+* [Color-hex](https://www.color-hex.com/) once I identified the colors I wanted I used color-hex to generate the palette.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 * [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
@@ -61,9 +61,6 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 
 ## Testing
 TBC
-
-
-
 
 
 ### W3C Validator Testing
@@ -91,7 +88,7 @@ TBC
 
 
 ### Unfix Bugs
-TBC
+CSS hover issue on Top Scores button on index.html
 
 
 ## Deployment
@@ -129,3 +126,28 @@ $ git clone https://github.com/sherryrich/logo-quiz/
 ```
 
 For a more detailed explanations of the above process [Click Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) 
+
+
+## Credits
+* [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ) - Build a Quiz App
+* [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) - How to Make a Quiz App
+* [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I) -  How to create a modal
+* [JavaScript Book](https://javascriptbook.com/)
+* [Code Institute](https://codeinstitute.net/ie/) - Full Stack Developer Course
+* [W3Schools](https://www.w3schools.com/) - constant source of help and inspiration
+* [MDN](https://developer.mozilla.org/en-US/) - wealth of information
+* [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) - The Web Developer Bootcamp 2002
+* [Udemy]https://www.udemy.com/course/the-complete-web-development-bootcamp/ - The Complete 2022 Web Development Bootcamp
+* [Love Maths]
+* [README Love Running](https://github.com/Code-Institute-Solutions/readme-template) - Inspiration for this README
+* [Am I Responsive?](http://ami.responsivedesign.is/) - Tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
+* [Awesome](https://fontawesome.com/) - The icons in the footer were taken from Font Awesome.
+* [Google fonts](https://fonts.google.com/) for the fonts Anek Odia, Roboto and Sans-Serif.
+
+This project is for educational use only and was created for the Code Institute Module.
+
+## Acknowledgements
+* To create this website, I relied on material covered in the Full Stack Development course by Code Institute. I also relied on information from Code Institute, Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
+* Gerard McBride my tutor for reviewing my work and providing valuable feedback and advice.
+
+Created by Richard Sherry :+1:
