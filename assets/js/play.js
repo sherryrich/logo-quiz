@@ -40,17 +40,65 @@ let questions = [
         answer: 3,
     },
     {
+        question: "assets/images/logo12.PNG",
+        choice1: "MTV",
+        choice2: "GOLD",
+        choice3: "QUEST",
+        choice4: "National Geographic",
+        answer: 4,
+    },
+    {
+        question: "assets/images/logo13.PNG",
+        choice1: "Microsoft",
+        choice2: "Opera",
+        choice3: "Firefox",
+        choice4: "Android",
+        answer: 3,
+    },
+    {
+        question: "assets/images/logo15.PNG",
+        choice1: "Alibaba",
+        choice2: "ebay",
+        choice3: "Shopify",
+        choice4: "Amazon",
+        answer: 4,
+    },
+    {
+        question: "assets/images/logo21.PNG",
+        choice1: "Rolls-Royce",
+        choice2: "Bugatti",
+        choice3: "Aston Martin",
+        choice4: "Bentley",
+        answer: 4,
+    },
+    {
         question: "assets/images/logo17.PNG",
         choice1: "VISA",
-        choice2: "Revolut",
-        choice3: "MasterCard",
+        choice2: "MASTERCARD",
+        choice3: "Revolut",
         choice4: "American Express",
-        answer: 3,
+        answer: 2,
+    },
+    {
+        question: "assets/images/logo19.PNG",
+        choice1: "UPS",
+        choice2: "DPD",
+        choice3: "Fastway",
+        choice4: "FedEx",
+        answer: 4,
+    },
+    {
+        question: "assets/images/logo22.PNG",
+        choice1: "Fox",
+        choice2: "NBC",
+        choice3: "CBS",
+        choice4: "CNN",
+        answer: 2,
     }
 ]
 
 const score_points = 1
-const max_questions = 4
+const max_questions = 10
 
 //Start Game
 
