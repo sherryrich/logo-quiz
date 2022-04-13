@@ -70,12 +70,12 @@ TBC
 
 #### The W3C Markup Validator and W3C CSS Validation Service were used to validate each page to sure no errors were shown upon submission.
 
-* W3C Markup Validator - index.html [result]()
-* W3C Markup Validator - play.html [result]()
-* W3C Markup Validator - end.html [result]()
-* W3C Markup Validator - topscores.html [result]()
-* TW3C CSS Validation Service - style.css [result]()
-* TW3C CSS Validation Service - play.css [result]()
+* W3C Markup Validator - index.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_index.PNG)
+* W3C Markup Validator - play.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_play.PNG)
+* W3C Markup Validator - end.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_end.PNG)
+* W3C Markup Validator - topscores.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_topscpres.PNG)
+* TW3C CSS Validation Service - style.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_css_validator_style.PNG)
+* TW3C CSS Validation Service - play.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_css_validator_play.PNG)
 
 
 ### Bugs
@@ -91,4 +91,41 @@ TBC
 
 
 ### Unfix Bugs
-CSS formatting issues content on smaller devices less then 300px wide.
+TBC
+
+
+## Deployment
+* The current deployment of this project was done using Gitpod.
+* I used the gitpod interface to write the code and as it is linked with Github as it was easy to use the terminal to commit my files and push to my repository.
+* The deployed website is hosted on Github pages for easy viewing without having to clone or fork the repository to view the running website. Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages" Changing the source from none to master.
+* I deployed the site to GitHub pages. 
+* A deployed link to the website can be found [here](https://sherryrich.github.io/logo-quiz/)
+* In the GitHub repository go to the Settings tab.
+* Next from the source section drop-down select Master Branch.
+* Once master branch is selected the page provides the link to the completed website. This can take a minute to activate and show live.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/sherryrich/logo-quiz/
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/sherryrich/logo-quiz/
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+For a more detailed explanations of the above process [Click Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) 
