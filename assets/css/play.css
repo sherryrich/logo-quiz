@@ -72,7 +72,6 @@
 }
 
 .image-container {
-    border: 5px solid #fff;
     margin-bottom: 2rem;
 }
 
@@ -85,5 +84,16 @@
 @media only screen and (max-width: 768px) {
     .choice-container {
         min-width: 40rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .choice-container {
+        min-width: 30rem;
+    }
+    
+    * {
+        font-size: 50%;
     }
 }
