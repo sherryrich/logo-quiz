@@ -132,12 +132,12 @@ For a more detailed explanations of the above process [Click Here](https://help.
 * [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ) - Build a Quiz App
 * [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) - How to Make a Quiz App
 * [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I) -  How to create a modal
-* [JavaScript Book](https://javascriptbook.com/)
+* [JavaScript Book](https://javascriptbook.com/) - great book for visually understanding JavaScript
 * [Code Institute](https://codeinstitute.net/ie/) - Full Stack Developer Course
 * [W3Schools](https://www.w3schools.com/) - constant source of help and inspiration
 * [MDN](https://developer.mozilla.org/en-US/) - wealth of information
 * [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) - The Web Developer Bootcamp 2002
-* [Udemy]https://www.udemy.com/course/the-complete-web-development-bootcamp/ - The Complete 2022 Web Development Bootcamp
+* [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/)- The Complete 2022 Web Development Bootcamp
 * [Love Maths]
 * [README Love Running](https://github.com/Code-Institute-Solutions/readme-template) - Inspiration for this README
 * [Am I Responsive?](http://ami.responsivedesign.is/) - Tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
