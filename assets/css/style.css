@@ -66,6 +66,25 @@ h1 {
     transform: scale(1.05);
 }
 
+.btn-top {
+    font-size: 3rem;
+    padding: 1rem 0;
+    width: 30rem;
+    color: #232322;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: #428bca;
+    border-radius: 5px;
+}
+
+.btn-top:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.703);
+    transition: transform 200ms;
+    transform: scale(1.05);
+}
+
 .btn-top-score {
     background: #fff;
 }
@@ -80,7 +99,7 @@ h1 {
     margin-left: 1rem;
 }
 
-#btn-topscores {
+.btn-topscores {
     font-size: 3rem;
     padding: 1rem 0;
     width: 30rem;
@@ -90,14 +109,15 @@ h1 {
     color: #232322;
     border-radius: 5px;
     background: #428bca;
+    
 }
 
-/* #btn-topscores:hover {
+#btn-topscores:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 255, 0.703);
     transition: transform 200ms;
     transform: scale(1.05);
-} */
+}
 
 /* modal */
 
