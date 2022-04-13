@@ -138,7 +138,7 @@ For a more detailed explanations of the above process [Click Here](https://help.
 * [MDN](https://developer.mozilla.org/en-US/) - wealth of information
 * [Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/) - The Web Developer Bootcamp 2002
 * [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/)- The Complete 2022 Web Development Bootcamp
-* [Love Maths]
+* [Love Maths](https://github.com/Code-Institute-Org/love-maths) AJGreaves video tutorial on JavaScript
 * [README Love Running](https://github.com/Code-Institute-Solutions/readme-template) - Inspiration for this README
 * [Am I Responsive?](http://ami.responsivedesign.is/) - Tool for taking a quick snapshot of the responsive breakpoints of the website to visualise how the site will look on different device screen sizes in one place. The resulting screenshot is also used as the README.md logo image.
 * [Awesome](https://fontawesome.com/) - The icons in the footer were taken from Font Awesome.
