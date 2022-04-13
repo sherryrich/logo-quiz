@@ -19,9 +19,9 @@
     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
-            <form class="end-form-container">
+            <form class="end-form-container flex-column">
                 <h2 id="end-text">Enter name to see if you are on the Top Scores List!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <input type="text" class="btn btn-top-score" name="name" id="username" placeholder="Enter your name">
                 <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)"
                     disabled>Save</button>
             </form>
