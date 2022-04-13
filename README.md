@@ -76,3 +76,19 @@ TBC
 * W3C Markup Validator - topscores.html [result]()
 * TW3C CSS Validation Service - style.css [result]()
 * TW3C CSS Validation Service - play.css [result]()
+
+
+### Bugs
+* Script tag was at the top of page and js wasn’t working, moved to bottom of page to solve problem.
+* I have a Chrome extension error "self.processResponse is not a function" which I learned was caused by the [WhatRuns](https://github.com/vercel/next.js/discussions/33355) extension I was using. I deleted the extension to fix.
+* gitpod.yml errors displaying problems in the terminal, told to ignore this by code institue.
+* A lot of de-bugging due to my naming of variables and typos such as variable "score" was misspelt "scor", "num" verus "nums" and ""score.Text.innerText" versus "scoreText.innerText".
+* End of quiz was diverting to /end.html and showing an error, should have been pointing to /logo-quiz/end.html.
+* couldn’t get leaderboard to load at the end, I spotted another error in typo "topScores.MAP, debugged ".MAP" is not a function"
+* I had the modal in different js file, quickly spotted and fixed.
+* play.html wouldn't pass the html validator because src="" so added a default image as suggested by my mentor. This solution worked perfectly.
+* During testing the W3C Validator flagged the duplication of ID usage.
+
+
+### Unfix Bugs
+CSS formatting issues content on smaller devices less then 300px wide.
