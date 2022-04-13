@@ -27,3 +27,37 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 
 ## Lighthouse Report
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_lighthouse_report.PNG)
+
+
+Features Left to Implement
+Countdown timer
+Random image generator
+contact form
+
+## Technologies Used
+
+### Languages
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://www.javascript.com/)
+
+### Libraries
+I intentionally did not use Bootstrap or jquery on this project as I wanted to learn and master HTML CSS & JavaScript without reliance on Libraries.
+
+### Tools
+* [Google Fonts](https://fonts.google.com/) Used to compare and choose fonts.
+* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
+* [Color-hex](https://www.color-hex.com/color-palette/8987) once I identified the colors I wanted I used color-hex to generate the palette.
+* [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+* [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
+* [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
+* [WAVE](https://wave.webaim.org/extension/) Browser Extension testing.
+* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
+* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
+* [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) used to inspect and find out overlow.
+* [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg) used extension to display any page as a tree.
+
+## Testing
+TBC
