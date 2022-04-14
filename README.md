@@ -129,12 +129,22 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 
 #### The W3C Markup Validator and W3C CSS Validation Service were used to validate each page to sure no errors were shown upon submission.
 
+#### The W3C Markup Validator
 * W3C Markup Validator - index.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_index.PNG)
 * W3C Markup Validator - play.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_play.PNG)
 * W3C Markup Validator - end.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_end.PNG)
 * W3C Markup Validator - topscores.html [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_validator_topscpres.PNG)
+
+### W3C CSS Validator
 * TW3C CSS Validation Service - style.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_css_validator_style.PNG)
 * TW3C CSS Validation Service - play.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_css_validator_play.PNG)
+
+### JSHint
+* end.js [result] One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
+* howtoplay.js [result]
+* play.js [result] Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.
+* topscores.js [result]
+* One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
 
 
 ### Bugs
