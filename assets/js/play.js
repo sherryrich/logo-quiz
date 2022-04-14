@@ -74,7 +74,7 @@ let questions = [
     {
         question: "assets/images/logo17.PNG",
         choice1: "VISA",
-        choice2: "MASTERCARD",
+        choice2: "Mastercard",
         choice3: "Revolut",
         choice4: "American Express",
         answer: 2,
