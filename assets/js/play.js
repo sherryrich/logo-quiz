@@ -101,7 +101,7 @@ const max_questions = 10;
 
 //Start Game
 
-startGame = () => {
+let startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions]; //spread operator gets all the questions available
@@ -110,7 +110,7 @@ startGame = () => {
 
 //Get a new question
 
-getNewQuestion = () => {
+let getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > max_questions) {
         localStorage.setItem(`mostRecentScore`, score);
 
@@ -158,7 +158,7 @@ choices.forEach(choice => {
     });
 });
 
-incrementScore = num => {
+let incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 };
