@@ -39,6 +39,7 @@ h1 {
 .flex-column {
     display: flex;
     flex-direction: column;
+    
 }
 
 .flex-center {

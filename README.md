@@ -52,7 +52,6 @@ The user now has two button options, "Play Again" which will bring the user back
 
 ### Features Left to Implement
 * Countdown timer per game / question.
-* Random question generator.
 * Contact form.
 
 ## Technologies Used
@@ -86,7 +85,7 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 
 * Browser testing was completed via Google Chrome Dev tools. Most notably iPhone SE (375 x 667) and larger screen sizes.
 * I tested in various browsers, Chrome, Firefox, Safari and Edge.
-* I requested code review from Code Institute fellow students on Slack channel and the feedback was very good with some notable such as 404 error when reaching the end of the quiz and css issue with the Top Scores button.
+* I requested code review from Code Institute fellow students on Slack channel and the feedback was very good with some notable such as 404 error when reaching the end of the quiz and css issue with the Top Scores button. This was resolved with the help of Suzy Bennett identfying box shaddow css issue.
 * I confirmed the quiz worked as expected on every page and possible outcome / flow in the game.
 
 
@@ -189,5 +188,6 @@ This project is for educational use only and was created for the Code Institute 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute. I also relied on information from Code Institute, Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
 * Gerard McBride my tutor for reviewing my work and providing valuable feedback and advice.
+* Suzy Bennett for all of her help, taking her free time to to help me out on slack and walk through my code.
 
 Created by Richard Sherry :+1:

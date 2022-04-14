@@ -76,6 +76,11 @@
     color: #232322;
 }
 
+.game-exit {
+   
+}
+
+
 /* media queries  */
 
 @media only screen and (max-width: 768px) {
