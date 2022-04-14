@@ -25,7 +25,7 @@ let saveHighScore = e => {
         return b.score - a.score;
     });
 
-    topScores.splice(10);
+    topScores.splice(5);
     localStorage.setItem("topScores", JSON.stringify(topScores));
     window.location.assign("topscores.html");
 };
