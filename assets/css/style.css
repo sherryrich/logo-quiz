@@ -90,6 +90,10 @@ h1 {
     background: #fff;
 }
 
+.btn-home {
+    background: #fff;
+}
+
 #open,
 #close {
     background: #00ccbc;
@@ -121,7 +125,7 @@ h1 {
 /* modal */
 
 .modal-container {
-    background-color: #d9534f;
+    background-color: #b40300;
     display: flex;
     align-items: center;
     justify-content: center;
