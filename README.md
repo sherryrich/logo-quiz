@@ -9,6 +9,29 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 ## Showcase
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_showcase.png)
 
+
+
+## User Experience
+### User Stories
+
+### As the site creator:
+* I want to create a quiz that is both fun and engaging for the user.
+* I want to create a quiz that shows how important logos are to the company brand.
+* I want to create a quiz that is interactive and simple and easy to use.
+* I want to create a quiz that is visually appealing to the user.
+
+### As a first time user:
+
+* I want to play a quiz instinctively.
+* I want to be able to see my progress by way of current question & score and overall result at the end.
+* I want to have the option to add my score to the Top Scores list.
+
+### As a returning user:
+
+* I want to play again and see if I can improve on my previous attempt(s).
+* Want to be able to see opther Top Scores
+
+
 ## Homepage
 The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores"
 
