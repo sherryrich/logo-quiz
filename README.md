@@ -29,7 +29,7 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 ### As a returning user:
 
 * I want to play again and see if I can improve on my previous attempt(s).
-* Want to be able to see opther Top Scores
+* Want to be able to see opther Top Scores.
 
 
 ## Homepage
@@ -194,6 +194,7 @@ For a more detailed explanations of the above process [Click Here](https://help.
 * [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ) - Build a Quiz App
 * [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY) - How to Make a Quiz App
 * [Florin Pop](https://www.youtube.com/watch?v=XH5OW46yO8I) -  How to create a modal
+* [100 Most Famous Logos of All-Time](https://inkbotdesign.com/100-famous-logos/) - Logo images sourced via this website.
 * [JavaScript Book](https://javascriptbook.com/) - great book for visually understanding JavaScript
 * [Code Institute](https://codeinstitute.net/ie/) - Full Stack Developer Course
 * [W3Schools](https://www.w3schools.com/) - constant source of help and inspiration
