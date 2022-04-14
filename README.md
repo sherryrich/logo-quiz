@@ -55,7 +55,7 @@ The user now has two button options, "Play Again" which will bring the user back
 ### Color Palette
 * The main colours were chosen from inspiration from [The Logo Board Game](https://www.drumondpark.com/logo)
 
-![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/Logo_quiz_color_palette.png)
+![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_color_palette.png)
 
 ### Typography
 * The Anek Odia font is the main font used throughout the quiz app with Roboto & Sans-Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Anek Odia features contemporary design and compact structure making it easily legible.
@@ -140,11 +140,10 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 * TW3C CSS Validation Service - play.css [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_css_validator_play.PNG)
 
 ### JSHint
-* end.js [result] One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
-* howtoplay.js [result]
-* play.js [result] Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.
-* topscores.js [result]
-* One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
+* end.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_end.PNG) One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
+* howtoplay.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_howtoplay.PNG)
+* play.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_play.PNG) Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.
+* topscores.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_topscores.PNG)
 
 
 ### Bugs
@@ -157,6 +156,7 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 * I had the modal in different js file, quickly spotted and fixed.
 * play.html wouldn't pass the html validator because src="" so added a default image as suggested by my mentor. This solution worked perfectly.
 * During testing the W3C Validator flagged the duplication of ID usage. I updated the ID name for one in the html and resoled issues around CSS. After making this changes the html files passed the validator testing.
+* Two JS files returned issues. These are notfied under JSHint section above.
 
 
 ### Unfix Bugs
