@@ -1,7 +1,7 @@
 # Logo Quiz
 
 Test your skills with The Logo Quiz!
-This game features 10 questions.The user must simply match the correct company logo to that of the company. The catch is the image displayed is only part of the company logo.
+This game features 10 questions. The user must simply match the correct company logo to that of the company. The catch is the image displayed is only part of the company logo.
 Inspiration for this game came when I recently bought [The Logo Board Game](https://www.drumondpark.com/logo) to play with my family
 
 A deployed link to the website can be found [here](https://sherryrich.github.io/logo-quiz/)
@@ -13,7 +13,7 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores"
 
 ### Play
-When the user clicks the Play button they are immedediatly brought to the play.html page where the user is greeted with the 1st question of 10 questions. The user is also shown the current score which is defaulted to zero at the start. Under the score is the image / logo of a company. The user is then shown 4 possible answers of which they must choose one. If the user selects correctly the button will display green and the remaning 3 options will display red. The user will increase their score by 1 point and progress onto question 2. If the user selects incorrectly the answer will be displayed in red. If they select incorrectly the current score will remain the same and the user will progress onto question 2. As the user progress through the 10 questions the progress bar increases incrementally and the number of questions our of 10 also increased. Example if the user is on question 8 out of the 10 questions the progress bar will display 80% full and it will display "Question 8 of 10". This process is repeated for each question until the user completes all 10 questions.
+When the user clicks the Play button they are immediately brought to the play.html page where the user is greeted with the 1st question of 10 questions. The user is also shown the current score which is defaulted to zero at the start. Under the score is the image / logo of a company. The user is then shown 4 possible answers of which they must choose one. If the user selects correctly the button will display green and the remaining 3 options will display red. The user will increase their score by 1 point and progress onto question 2. If the user selects incorrectly the answer will be displayed in red. If they select incorrectly the current score will remain the same and the user will progress onto question 2. As the user progress through the 10 questions the progress bar increases incrementally and the number of questions our of 10 also increased. Example if the user is on question 8 out of the 10 questions the progress bar will display 80% full and it will display "Question 8 of 10". This process is repeated for each question until the user completes all 10 questions.
 
 ### How To Play
 When the user clicks the 'How To Play' button, a modal window will pop up. Simply instructions are given to the user on how to play the game. The user then selects "continue" to revert back to the homepage.
@@ -23,7 +23,7 @@ When the user completes all 10 possible guesses they are show the end.html page 
 Enter your details below to find out". The user must enter a name and select save in order to see the Top Scores page which is /topscores.html.
 
 ### Top Scores
-If the user enters a name they are brought to the topscores.html page where the top 5 names and accompaning scores are displayed, highest at the top and lowest at the bottom.
+If the user enters a name they are brought to the topscores.html page where the top 5 names and accompanying scores are displayed, highest at the top and lowest at the bottom.
 The user now has two button options, "Play Again" which will bring the user back to the play.html page to start over or "Go Home" which will bring the user back to the Homepage, index.html page.
 
 
@@ -35,7 +35,7 @@ The user now has two button options, "Play Again" which will bring the user back
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/Logo_quiz_color_palette.png)
 
 ### Typography
-* The Anek Odia font is the main font used throughout the quiz app with Roboto & Sans-Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Anek Odia features contemporary design and compact structre making it easily legible.
+* The Anek Odia font is the main font used throughout the quiz app with Roboto & Sans-Serif as the fallback fonts in case for any reason the font isn't being imported into the site correctly. Anek Odia features contemporary design and compact structure making it easily legible.
 
 ### Imagery
 * The main logo images in the Quiz were chosen from inspiration from [The 100 Most Famous Logos of All-Time](https://inkbotdesign.com/100-famous-logos/)
@@ -79,13 +79,13 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) used to inspect and find out overlow.
 * [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg) used extension to display any page as a tree.
 * [Favicon](https://www.favicon.cc/) Used to created bookmark URL icon.
-* [Unicode](https://unicode-table.com/en/1F937/) Used forShrug Emoji in Modal
+* [Unicode](https://unicode-table.com/en/1F937/) Used for Shrug Emoji in Modal
 
 ## Testing
 
 * Browser testing was completed via Google Chrome Dev tools. Most notably iPhone SE (375 x 667) and larger screen sizes.
 * I tested in various browsers, Chrome, Firefox, Safari and Edge.
-* I requested code review from Code Institute fellow students on Slack channel and the feedback was very good with some notable such as 404 error when reaching the end of the quiz and css issue with the Top Scores button. This was resolved with the help of Suzy Bennett identfying box shaddow css issue.
+* I requested code review from Code Institute fellow students on Slack channel and the feedback was very good with some notable such as 404 error when reaching the end of the quiz and CSS issue with the Top Scores button. This was resolved with the help of Suzy Bennett in identifying the box shaddow CSS issue.
 * I confirmed the quiz worked as expected on every page and possible outcome / flow in the game.
 
 
@@ -93,9 +93,9 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 | Feature        | Expected           | Testing  | Result | Pass/Fail |
 | ------------- |-------------| -----|  ---------- | :----: |
 | Play button    | Directed to start quiz| Click the Play button | Button navigates to start quiz | Pass |
-| How to Play button | Directed to open modal with instuctions on how to play quiz | Redirected to page | Redirected to page | Pass |
+| How to Play button | Directed to open modal with instructions on how to play quiz | Redirected to page | Redirected to page | Pass |
 | Top Scores button | Directed to Top Scores page| Click Top Scores | Redirected to Top Scores page | Pass |
-| End of Quiz | Shown score | Is score accurate  | Socre incrementing correctly | Pass |
+| End of Quiz | Shown score | Is score accurate  | Score incrementing correctly | Pass |
 | End of Quiz | Option to enter Top Scores List | hit save  | must enter name first | Pass |
 | End of Quiz | Option to enter Top Scores List | enter name and then save  | Redirected to top scores list | Pass |
 | Play Again button | Directed to start quiz| Click the Play Again button  | Redirected to start quiz page | Pass |
@@ -117,13 +117,13 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 ### Bugs
 * Script tag was at the top of page and js wasn’t working, moved to bottom of page to solve problem.
 * I have a Chrome extension error "self.processResponse is not a function" which I learned was caused by the [WhatRuns](https://github.com/vercel/next.js/discussions/33355) extension I was using. I deleted the extension to fix.
-* gitpod.yml errors displaying problems in the terminal, told to ignore this by code institue.
+* gitpod.yml errors displaying problems in the terminal, told to ignore this by code institute tutor on slack channel #ask-us-anything.
 * A lot of de-bugging due to my naming of variables and typos such as variable "score" was misspelt "scor", "num" verus "nums" and ""score.Text.innerText" versus "scoreText.innerText".
 * End of quiz was diverting to /end.html and showing an error, should have been pointing to /logo-quiz/end.html.
-* couldn’t get leaderboard to load at the end, I spotted another error in typo "topScores.MAP, debugged ".MAP" is not a function"
+* couldn’t get Top Scores to load at the end, I spotted another error in typo "topScores.MAP, debugged ".MAP" is not a function"
 * I had the modal in different js file, quickly spotted and fixed.
 * play.html wouldn't pass the html validator because src="" so added a default image as suggested by my mentor. This solution worked perfectly.
-* During testing the W3C Validator flagged the duplication of ID usage. I updated the ID name for one in the html and resoled issues around css. After making this changes the html files passed the validator testing.
+* During testing the W3C Validator flagged the duplication of ID usage. I updated the ID name for one in the html and resoled issues around CSS. After making this changes the html files passed the validator testing.
 
 
 ### Unfix Bugs
@@ -188,6 +188,6 @@ This project is for educational use only and was created for the Code Institute 
 ## Acknowledgements
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute. I also relied on information from Code Institute, Slack Community Channels, Udemy, W3Schools, MDN and YouTube for Online Web Tutorials and resources.
 * Gerard McBride my tutor for reviewing my work and providing valuable feedback and advice.
-* Suzy Bennett for all of her help, taking her free time to to help me out on slack and walk through my code.
+* Suzy Bennett for all of her help, taking her free time to help me out on slack and walk through my code.
 
 Created by Richard Sherry :+1:
