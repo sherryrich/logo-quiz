@@ -115,7 +115,7 @@ getNewQuestion = () => {
         localStorage.setItem(`mostRecentScore`, score);
 
         //Brings the user to the game end page after the quiz is finished
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     //Shows the user the number of question is answering
     questionCounter++;
