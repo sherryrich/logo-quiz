@@ -79,6 +79,8 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 * [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
 * [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) used to inspect and find out overlow.
 * [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg) used extension to display any page as a tree.
+* [Favicon](https://www.favicon.cc/) Used to created bookmark URL icon.
+* [Unicode](https://unicode-table.com/en/1F937/) Used forShrug Emoji in Modal
 
 ## Testing
 
