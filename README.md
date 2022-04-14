@@ -94,6 +94,9 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 | Play button    | Directed to start quiz| Click the Play button | Button navigates to start quiz | Pass |
 | How to Play button | Directed to open modal with instuctions on how to play quiz | Redirected to page | Redirected to page | Pass |
 | Top Scores button | Directed to Top Scores page| Click Top Scores | Redirected to Top Scores page | Pass |
+| End of Quiz | Shown score | Is score accurate  | Socre incrementing correctly | Pass |
+| End of Quiz | Option to enter Top Scores List | hit save  | must enter name first | Pass |
+| End of Quiz | Option to enter Top Scores List | enter name and then save  | Redirected to top scores list | Pass |
 | Play Again button | Directed to start quiz| Click the Play Again button  | Redirected to start quiz page | Pass |
 | Go Home button | Directed to homepage | Click the Go Home button  | Redirected to start homepage | Pass |
 
