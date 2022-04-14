@@ -81,7 +81,21 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 * [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg) used extension to display any page as a tree.
 
 ## Testing
-TBC
+
+* Browser testing was completed via Google Chrome Dev tools. Most notably iPhone SE (375 x 667) and larger screen sizes.
+* I tested in various browsers, Chrome, Firefox, Safari and Edge.
+* I requested code review from Code Institute fellow students on Slack channel and the feedback was very good with some notable such as 404 error when reaching the end of the quiz and css issue with the Top Scores button.
+* I confirmed the quiz worked as expected on every page and possible outcome / flow in the game.
+
+
+#### **Navigation Testing**
+| Feature        | Expected           | Testing  | Result | Pass/Fail |
+| ------------- |-------------| -----|  ---------- | :----: |
+| Play button    | Directed to start quiz| Click the Play button | Button navigates to start quiz | Pass |
+| How to Play button | Directed to open modal with instuctions on how to play quiz | Redirected to page | Redirected to page | Pass |
+| Top Scores button | Directed to Top Scores page| Click Top Scores | Redirected to Top Scores page | Pass |
+| Play Again button | Directed to start quiz| Click the Play Again button  | Redirected to start quiz page | Pass |
+| Go Home button | Directed to homepage | Click the Go Home button  | Redirected to start homepage | Pass |
 
 
 ### W3C Validator Testing
@@ -105,7 +119,7 @@ TBC
 * couldn’t get leaderboard to load at the end, I spotted another error in typo "topScores.MAP, debugged ".MAP" is not a function"
 * I had the modal in different js file, quickly spotted and fixed.
 * play.html wouldn't pass the html validator because src="" so added a default image as suggested by my mentor. This solution worked perfectly.
-* During testing the W3C Validator flagged the duplication of ID usage.
+* During testing the W3C Validator flagged the duplication of ID usage. I updated the ID name for one in the html and resoled issues around css. After making this changes the html files passed the validator testing.
 
 
 ### Unfix Bugs
