@@ -1,5 +1,5 @@
-/* This script shows a greeting to user based on users current time
-example taken from JavasSctrip jQuery book */
+/* This script shows a greeting to user based on users current time 
+example taken from JavasSctrip jQuery book https://javascriptbook.com/code/c01/add-content.html - see also README */
 
 let today = new Date(); // create a new date object
 let hourNow = today.getHours(); // find the current hour
