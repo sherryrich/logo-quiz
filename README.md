@@ -33,7 +33,9 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 
 
 ## Homepage
-The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores"
+The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores".
+The user is also shown a dynamic greeting which is depended on the users time. 
+
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_game_homepage.PNG)
 
 ### Play
@@ -49,6 +51,7 @@ When the user clicks the 'How To Play' button, a modal window will pop up. Simpl
 ### End of Game
 When the user completes all 10 possible guesses they are show the end.html page where they are shown the score they achieved and the message "Are you on the Top Scores List?
 Enter your details below to find out". The user must enter a name and select save in order to see the Top Scores page which is /topscores.html.
+
 ![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_game_end.PNG)
 
 ### Top Scores

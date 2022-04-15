@@ -6,7 +6,7 @@ let hourNow = today.getHours(); // find the current hour
 let greeting;
 
 //display the greetting based on users current time
-if (hourNow > 18)  {
+if (hourNow > 18) {
     greeting = "Good Evening & good luck";
 } else if (hourNow > 12) {
     greeting = "Good Afternoon & good luck";
