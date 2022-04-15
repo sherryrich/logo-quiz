@@ -152,7 +152,7 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 ### JSHint
 * end.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_end.PNG) One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
 * howtoplay.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_howtoplay.PNG)
-* play.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_play.PNG) Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.
+* play.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_play.PNG) Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.[stackoverflow solution](https://stackoverflow.com/questions/13192466/how-to-suppress-variable-is-better-written-in-dot-notation)
 * topscores.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_topscores.PNG)
 * greeting.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_greeting.PNG)
 
