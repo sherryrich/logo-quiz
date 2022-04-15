@@ -34,7 +34,7 @@ A deployed link to the website can be found [here](https://sherryrich.github.io/
 
 ## Homepage
 The user is shown three buttons on the homepage, "Play", "How to Play" and "Top Scores"
-![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_greeting.PNG)
+![Preview](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_game_homepage.PNG)
 
 ### Play
 When the user clicks the Play button they are immediately brought to the play.html page where the user is greeted with the 1st question of 10 questions. The user is also shown the current score which is defaulted to zero at the start. Under the score is the image / logo of a company. The user is then shown 4 possible answers of which they must choose one. If the user selects correctly the button will display green and the remaining 3 options will display red. The user will increase their score by 1 point and progress onto question 2. If the user selects incorrectly the answer will be displayed in red. If they select incorrectly the current score will remain the same and the user will progress onto question 2. As the user progress through the 10 questions the progress bar increases incrementally and the number of questions our of 10 also increased. Example if the user is on question 8 out of the 10 questions the progress bar will display 80% full and it will display "Question 8 of 10". This process is repeated for each question until the user completes all 10 questions.
