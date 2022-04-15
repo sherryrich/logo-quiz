@@ -1,3 +1,4 @@
+// Credit to Brian Design for inspiration for this logic, see credit section
 const topScoresList = document.querySelector("#topScoresList");
 const topScores = JSON.parse(localStorage.getItem("topScores")) || [];
 

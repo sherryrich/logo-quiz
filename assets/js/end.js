@@ -1,3 +1,4 @@
+// Credit to Brian Design for inspiration for this logic, see credit section
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');
