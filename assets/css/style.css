@@ -19,6 +19,12 @@ h1 {
     color: #fff;
 }
 
+#greeting {
+    font-size: 2rem;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
 #end-text {
     font-size: 3rem;
     text-align: center;
