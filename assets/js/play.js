@@ -1,3 +1,4 @@
+// Credit to Brian Design for inspiration for this logic, see credit section
 // Main JS - Declare const variables for DOM elements
 /*jshint sub:true*/
 const question = document.querySelector("#question");

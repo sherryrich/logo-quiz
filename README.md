@@ -2,7 +2,7 @@
 
 Test your skills with The Logo Quiz!
 This game features 10 questions. The user must simply match the correct company logo to that of the company. The catch is the image displayed is only part of the company logo.
-Inspiration for this game came when I recently bought [The Logo Board Game](https://www.drumondpark.com/logo) to play with my family
+Inspiration for this game came when I recently bought [The Logo Board Game](https://www.drumondpark.com/logo) to play with my family.
 
 A deployed link to the website can be found [here](https://sherryrich.github.io/logo-quiz/)
 
@@ -152,7 +152,7 @@ I intentionally did not use Bootstrap or jquery on this project as I wanted to l
 ### JSHint
 * end.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_end.PNG) One unused variable on line 14 in end.js. The variable saveHighScore is a callback in this instance.
 * howtoplay.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_howtoplay.PNG)
-* play.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_play.PNG) Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons.[stackoverflow solution](https://stackoverflow.com/questions/13192466/how-to-suppress-variable-is-better-written-in-dot-notation)
+* play.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_play.PNG) Two warnings in play.js. The questions are actually strings. I indexed by strings as that is the format of the quesitons. [stackoverflow solution](https://stackoverflow.com/questions/13192466/how-to-suppress-variable-is-better-written-in-dot-notation)
 * topscores.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_topscores.PNG)
 * greeting.js [result](https://github.com/sherryrich/logo-quiz/blob/main/docs/logo_quiz_jshint_greeting.PNG)
 
